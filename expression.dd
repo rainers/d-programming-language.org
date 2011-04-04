@@ -656,14 +656,12 @@ $(GNAME CatExpression):
 
 <h2>Mul Expressions</h2>
 
-$(V1
 $(GRAMMAR
 $(GNAME MulExpression):
 	$(GLINK UnaryExpression)
 	$(I MulExpression) $(B *) $(GLINK UnaryExpression)
 	$(I MulExpression) $(B /) $(GLINK UnaryExpression)
 	$(I MulExpression) $(B %) $(GLINK UnaryExpression)
-)
 )
 
 	$(P The operands must be arithmetic types. They undergo integral
