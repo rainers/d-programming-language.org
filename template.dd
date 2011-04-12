@@ -1000,7 +1000,6 @@ void test()
 $(V2
 <h2>Template Constraints</h2>
 
----
 $(GRAMMAR
 $(GNAME Constraint):
     $(B if) $(B $(LPAREN)) $(I ConstraintExpression) $(B $(RPAREN))
@@ -1008,7 +1007,6 @@ $(GNAME Constraint):
 $(I ConstraintExpression):
     $(I $(GLINK2 expression, Expression))
 )
----
 
 	$(P $(I Constraint)s are used to impose additional constraints
 	on matching arguments to a template beyond what is possible
